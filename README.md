@@ -66,7 +66,7 @@ Pour ce lui ci marche correctement, il faut :
     Vous pouvez faire : docker ps  pour voir si vos conteneur sont actifs
 **NB:** Ajouter le port du noeud primaire a l'endroit indiqué dans le script python **Ext_Tran_load.py**
 
-        ![Alt text](PymongoCon.PNG)
+![Alt text](PymongoCon.PNG)
 
 
 ## II-2 Installation des dependances
