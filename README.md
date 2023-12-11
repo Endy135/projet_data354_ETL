@@ -77,7 +77,10 @@ Pour ce lui ci marche correctement, il faut :
 
 ## II-3 Quelques images 
 
-    ![Alt text](dock.png)
+
+![Alt text](dock.png)
+
+
 
     ![Alt text](connNUOED-1.png)
 
