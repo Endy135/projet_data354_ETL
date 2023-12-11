@@ -74,12 +74,15 @@ Pour ce lui ci marche correctement, il faut :
         pip install -r requirements.txt
 
 ## II-3 Quelques images 
-
+- Vérification des conteneurs actifs
 ![Alt text](dock.png)
 
+- Connection a un noeud de mon  cluster mongo 
 ![Alt text](connNUOED-1.png)
 
-![Alt text](mongo_comp.png)
+-Visuel de l'interface de mongo compass avec les données de la plateforme airquino
+ chargées
+ ![Alt text](mongo_comp.png)
 
 
 # IV- Reponses aux questions
