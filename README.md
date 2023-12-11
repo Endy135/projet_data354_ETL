@@ -1,5 +1,5 @@
 # projet_data354_ETL
-construction d'une ETL (extraction, traitement, chargement)  automatisée pour extraire,
+Construction d'une ETL (extraction, traitement, chargement)  automatisée pour extraire,
 traiter et charger les données enregistrées par des capteurs via l'API de la plateforme arquino
 
 
@@ -80,7 +80,7 @@ Pour ce lui ci marche correctement, il faut :
 - Connection a un noeud de mon  cluster mongo 
 ![Alt text](connNUOED-1.png)
 
--Visuel de l'interface de mongo compass avec les données de la plateforme airquino
+- Visuel de l'interface de mongo compass avec les données de la plateforme airquino
  chargées
  ![Alt text](mongo_comp.png)
 
