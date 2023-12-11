@@ -21,7 +21,6 @@ Pour ce lui ci marche correctement, il faut :
 ## II-1 Mise en place d'un cluster mongodb avec docker ou sans
 
 ![Alt text](image.png)
-
     **. Avec docker**
 - telecharger **docker engine** ou **docker desktop** fonction du systeme d'exploitation que l'on utilise
 - mettre en place un cluster(facultatif) mais dans ce projet jai mis en place un replicaset de trois noeuds comme suit:
@@ -66,7 +65,7 @@ Pour ce lui ci marche correctement, il faut :
     Vous pouvez faire : docker ps  pour voir si vos conteneur sont actifs
 **NB:** Ajouter le port du noeud primaire a l'endroit indiqué dans le script python **Ext_Tran_load.py**
 
-![Alt text](PymongoCon.PNG)
+        ![Alt text](PymongoCon.PNG)
 
 
 ## II-2 Installation des dependances
@@ -77,14 +76,11 @@ Pour ce lui ci marche correctement, il faut :
 
 ## II-3 Quelques images 
 
+    ![Alt text](dock.png)
 
-![Alt text](dock.png)
+    ![Alt text](connNUOED-1.png)
 
-
-![Alt text](connNUOED-1.png)
-
-
-![Alt text](mongo_comp.png)
+    ![Alt text](mongo_comp.png)
 
 
 # IV- Reponses aux questions
@@ -116,4 +112,4 @@ Ma strategie pour le moment est toute simple, car n'ayant pas encore toucher ree
 
 
     - Evolution du chargement en image quelques heures apres le lancement du script python
-![Alt text](etl_auto.png) 
+            ![Alt text](etl_auto.png) 
