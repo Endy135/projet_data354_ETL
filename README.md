@@ -1,5 +1,5 @@
 # projet_data354_ETL
-construction d'une ETL (extraction, traitement, chargement)  automatisée pour extraire,
+Construction d'une ETL (extraction, traitement, chargement)  automatisée pour extraire,
 traiter et charger les données enregistrées par des capteurs via l'API de la plateforme arquino
 
 
@@ -64,8 +64,7 @@ Pour ce lui ci marche correctement, il faut :
 
     Vous pouvez faire : docker ps  pour voir si vos conteneur sont actifs
 **NB:** Ajouter le port du noeud primaire a l'endroit indiqué dans le script python **Ext_Tran_load.py**
-
-        ![Alt text](PymongoCon.PNG)
+![Alt text](PymongoCon.PNG)
 
 
 ## II-2 Installation des dependances
@@ -75,12 +74,15 @@ Pour ce lui ci marche correctement, il faut :
         pip install -r requirements.txt
 
 ## II-3 Quelques images 
+- Vérification des conteneurs actifs
+![Alt text](dock.png)
 
-    ![Alt text](dock.png)
+- Connection a un noeud de mon  cluster mongo 
+![Alt text](connNUOED-1.png)
 
-    ![Alt text](connNUOED-1.png)
-
-    ![Alt text](mongo_comp.png)
+- Visuel de l'interface de mongo compass avec les données de la plateforme airquino
+ chargées
+ ![Alt text](mongo_comp.png)
 
 
 # IV- Reponses aux questions
@@ -112,4 +114,4 @@ Ma strategie pour le moment est toute simple, car n'ayant pas encore toucher ree
 
 
     - Evolution du chargement en image quelques heures apres le lancement du script python
-            ![Alt text](etl_auto.png) 
+ ![Alt text](etl_auto.png) 
