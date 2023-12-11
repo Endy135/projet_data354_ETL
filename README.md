@@ -81,10 +81,10 @@ Pour ce lui ci marche correctement, il faut :
 ![Alt text](dock.png)
 
 
+![Alt text](connNUOED-1.png)
 
-    ![Alt text](connNUOED-1.png)
 
-    ![Alt text](mongo_comp.png)
+![Alt text](mongo_comp.png)
 
 
 # IV- Reponses aux questions
@@ -116,4 +116,4 @@ Ma strategie pour le moment est toute simple, car n'ayant pas encore toucher ree
 
 
     - Evolution du chargement en image quelques heures apres le lancement du script python
-            ![Alt text](etl_auto.png) 
+![Alt text](etl_auto.png) 
